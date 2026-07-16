@@ -34,6 +34,9 @@ FOUNDATION_EXPORT NSString * const OSETBiddingInfoExtraKey;
 
 /// 手动上报竞价失败。优先使用当前广告对象绑定的 Sort 补全字段；取不到 Sort 时仅上报传入字段。
 - (void)reportBiddingLossWithInfo:(nullable NSDictionary *)info;
+
+/// 缓存路由的统一 slotId 契约:所有缓存读写(check/get)一律以此为 slot 键,禁止裸传 self.slotId/advert.advertId。默认取 slotId 属性,回退 advert.advertId。
+- (NSString *)oset_slotId;
 @end
 
 NS_ASSUME_NONNULL_END

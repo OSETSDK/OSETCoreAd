@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/OSETBaseAd.h</key>
 		<data>
-		b5b5WgZEpU/9PtzVFXIPXKhOV+Q=
+		y1WWQB5/+6XRDNB1GAvw+0W5jbo=
 		</data>
 		<key>Headers/OSETBaseAdProtocol.h</key>
 		<data>
@@ -39,6 +39,10 @@
 		<key>Headers/OSETBaseView.h</key>
 		<data>
 		URPyutU6BJjkZrsRJXw3TczXKtg=
+		</data>
+		<key>Headers/OSETCommonAdapterSupport.h</key>
+		<data>
+		3UqRMlHaj/iDv4rSFG/lpfBaGjo=
 		</data>
 		<key>Headers/OSETDrawAd.h</key>
 		<data>
@@ -118,7 +122,7 @@
 		</data>
 		<key>Headers/OSETSplashAd.h</key>
 		<data>
-		ZkMiQYc8bKrv8uyrUgppqv4Wo5A=
+		Oo14I7rxNdpDT/yZOTZKMQYyzRo=
 		</data>
 		<key>Headers/OSETSplashAdProtocol.h</key>
 		<data>
@@ -429,7 +433,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vlthQxg2LbL1KPtODZLI2JadnKJz2bkYfRNqeD+ok+A=
+			viy8HWBTPMQjywMWUN2SJoyKPuBMap35A9GeM5ruPuw=
 			</data>
 		</dict>
 		<key>Headers/OSETBaseAdProtocol.h</key>
@@ -444,6 +448,13 @@
 			<key>hash2</key>
 			<data>
 			eF2pYFNn6/ro9nGsT9Ee4ANKHMoTmXTqB2Ge5XsPeaE=
+			</data>
+		</dict>
+		<key>Headers/OSETCommonAdapterSupport.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o8EVcKmm7EFxwDCKnotojmUr9mu+Z8IG2GzWMlkn1u0=
 			</data>
 		</dict>
 		<key>Headers/OSETDrawAd.h</key>
@@ -583,7 +594,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vfgcVYzpQ9/MEJaI4x1T7eFJ0DgkS5rhzEadvnW4f4g=
+			U3G7Hl7iFMHNPLk+EIR2MGpIutpEDm0f33m98EZ23DY=
 			</data>
 		</dict>
 		<key>Headers/OSETSplashAdProtocol.h</key>

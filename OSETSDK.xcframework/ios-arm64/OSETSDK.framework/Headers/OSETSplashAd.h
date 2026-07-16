@@ -73,6 +73,8 @@ NS_ASSUME_NONNULL_BEGIN
 ///// 显示  - - 必须load成功 以后再调用show   否则无效
 -(void)showSplashAd;
 
+-(void)showSplashAdWithWindow:(UIWindow *)window bottomView:(UIView *)bottomView;
+
 /**
  * 返回广告是否可展示
  */
