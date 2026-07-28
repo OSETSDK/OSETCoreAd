@@ -62,8 +62,7 @@ SDK初始化
  */
 + (void)configureLogsWithUid:(NSString *)uid;
 
-+(void)startCacheAdWihtType:(OSETLoadADType)type WithSlotId:(NSString *)slotId withUserId:(NSString *)userId;
-+ (void)hideAlert;
+
 @end
 
 NS_ASSUME_NONNULL_END
