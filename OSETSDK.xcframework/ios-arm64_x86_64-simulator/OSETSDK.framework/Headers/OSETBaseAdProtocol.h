@@ -126,6 +126,14 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)OSETAdapterAdDidShow:(id<OSETBaseAdProtocol>)ad;
 
 /**
+ 广告展示失败回调
+ 
+ @param ad 广告适配器
+ @param error 错误信息
+ */
+- (void)OSETAdapterAd:(id<OSETBaseAdProtocol>)ad didShowFailedWithError:(OSETAdError *)error;
+
+/**
  广告被点击回调
  
  @param ad 广告适配器

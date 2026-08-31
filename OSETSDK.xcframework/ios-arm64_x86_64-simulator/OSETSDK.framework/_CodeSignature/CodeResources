@@ -28,13 +28,33 @@
 		<data>
 		N7znWTzYGLT9o/XiJ0Nvlw+JA6Y=
 		</data>
+		<key>Headers/OSETBannerAssetPrefetcher.h</key>
+		<data>
+		uKhi/p3ESZV2lSdaIxkH8hDsLXE=
+		</data>
+		<key>Headers/OSETBannerCustomRenderAdProtocol.h</key>
+		<data>
+		+OFiUOhvPKV9yf+VHd8fP1c1PHU=
+		</data>
+		<key>Headers/OSETBannerRenderContext.h</key>
+		<data>
+		6gjhET/qf7UKu7tr7xWT1wMa3Po=
+		</data>
+		<key>Headers/OSETBannerRenderData.h</key>
+		<data>
+		6Zo3/dJGPIFpnAaXHr8tXY12iOs=
+		</data>
+		<key>Headers/OSETBannerTemplateView.h</key>
+		<data>
+		TCfXVjn6OTuuVGDDc5yw7V7Miv0=
+		</data>
 		<key>Headers/OSETBaseAd.h</key>
 		<data>
 		y1WWQB5/+6XRDNB1GAvw+0W5jbo=
 		</data>
 		<key>Headers/OSETBaseAdProtocol.h</key>
 		<data>
-		ztttKyBXeNEs33XPmDdM2pMPtgg=
+		MGfauTwt2pmrnQx80oPDS3B48uM=
 		</data>
 		<key>Headers/OSETBaseView.h</key>
 		<data>
@@ -42,7 +62,7 @@
 		</data>
 		<key>Headers/OSETCommonAdapterSupport.h</key>
 		<data>
-		3UqRMlHaj/iDv4rSFG/lpfBaGjo=
+		29p6Y4LCNinA1wvC3g0cXOt5FY8=
 		</data>
 		<key>Headers/OSETDrawAd.h</key>
 		<data>
@@ -110,7 +130,7 @@
 		</data>
 		<key>Headers/OSETSDK.h</key>
 		<data>
-		niMtmYoKgwh+ft3GGPoFvST07PY=
+		vwMPGPbcDFnyEKX1TPXicgWduww=
 		</data>
 		<key>Headers/OSETSDKInitializable.h</key>
 		<data>
@@ -132,57 +152,25 @@
 		<data>
 		chvaaW0uB22dJpIGuqrjnKLGwXY=
 		</data>
-		<key>OSETSDK.bundle/OSETSDK_ActivityRules.png</key>
-		<data>
-		avJQXBh4PzTVyfE//Gob9RDoMCE=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_AwardsBg.png</key>
-		<data>
-		jNzqcgiQeuvw4gVr3Dz6o3m03WY=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_AwardsContentBg.png</key>
-		<data>
-		bPTEvYL1KKYb3JPiU3hlN936Iww=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_AwardsTop.png</key>
-		<data>
-		yOaZpSX25Jvs1g/Yn+ujcCPPj6I=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_BitmapLeft.png</key>
-		<data>
-		II2DXC4ndI4KC3FWMc5ACBJT2tE=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_BitmapRight.png</key>
-		<data>
-		G1d+4Z68lu3EY0b7Ubf+BWIrVQY=
-		</data>
 		<key>OSETSDK.bundle/OSETSDK_Close.png</key>
 		<data>
-		rMCwdjXyVDSepeTVXZgCdazNO5k=
+		+SGGtRQhQfBv1uYuDwadEjYoIRU=
 		</data>
-		<key>OSETSDK.bundle/OSETSDK_DayTask.png</key>
+		<key>OSETSDK.bundle/OSETSDK_GrayLogo.png</key>
 		<data>
-		Io2GD6DP/rg5cpW0rLK9MMPbfUQ=
+		SiKMpeSEk8BowIiezq2d17O5oJo=
 		</data>
-		<key>OSETSDK.bundle/OSETSDK_Dial.png</key>
+		<key>OSETSDK.bundle/OSETSDK_Logo.png</key>
 		<data>
-		YZT9SPAeJK7QDQvUf+Hld9tapwI=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_DialBg.png</key>
-		<data>
-		L3K5OeBjiylHjaO/Ru7ZWv2Ykp0=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_GsouTask.png</key>
-		<data>
-		1YM813B91tKkZx/lQFjlxNrCWXk=
+		+cukgOhySukb9ndGxwzoSVPAU6c=
 		</data>
 		<key>OSETSDK.bundle/OSETSDK_LongCoupon.png</key>
 		<data>
 		q5zBwtuGZv2QcMYr2Z1mpqZ5MU0=
 		</data>
-		<key>OSETSDK.bundle/OSETSDK_SelectShowAd.png</key>
+		<key>OSETSDK.bundle/OSETSDK_Refresh.png</key>
 		<data>
-		2VxbYtT1xgitzXzkEp6JZYkpZUI=
+		3jM/VkrRMY1PNQZtg6zL7xmyW6U=
 		</data>
 		<key>OSETSDK.bundle/OSETSDK_ShortCoupon.png</key>
 		<data>
@@ -192,6 +180,10 @@
 		<data>
 		kuP72JhmHm0xVoPmmSzkn12l9/M=
 		</data>
+		<key>OSETSDK.bundle/OSETSDK_back.png</key>
+		<data>
+		s5aHeqz4pPmqBdqWOGL4NFVNMTk=
+		</data>
 		<key>OSETSDK.bundle/OSETSDK_back@2x.png</key>
 		<data>
 		naIYXwqfzoZU8Q3y5D2i1nBpJaM=
@@ -200,157 +192,33 @@
 		<data>
 		iQ4MsrFybV4gqdulF/Vqt5WdkV0=
 		</data>
-		<key>OSETSDK.bundle/OSETSDK_bgImage.png</key>
+		<key>OSETSDK.bundle/OSETSDK_close_Image.png</key>
 		<data>
-		9k4AzfVWz2zC+Gh+ZuIbs535rNU=
+		vw9japo8LNGxhJBs+D48pzLPzA8=
 		</data>
-		<key>OSETSDK.bundle/OSETSDK_bgImage1.png</key>
+		<key>OSETSDK.bundle/OSETSDK_close_native.png</key>
 		<data>
-		i0Ek0C+7aV8LpSPAZugm8erTDdw=
+		GYovHZ2ajM5DK0zSkk8ouyDxDXg=
 		</data>
-		<key>OSETSDK.bundle/OSETSDK_bgImage2.png</key>
+		<key>OSETSDK.bundle/OSETSDK_jingyin.png</key>
 		<data>
-		Y5QvIU0CYAQ1yxQHn9wkTjvn+eQ=
+		dSWF1BMaYOrYHVJNHYqnMfYIKBY=
 		</data>
 		<key>OSETSDK.bundle/OSETSDK_nav_back@3x.png</key>
 		<data>
 		s3INfrxatTI85Yqq2kBpD5hvzXI=
 		</data>
-		<key>OSETSDK.bundle/OSETSDK_双子座.png</key>
+		<key>OSETSDK.bundle/OSETSDK_volume.png</key>
 		<data>
-		KfL15w3mfa4So6ANlvyxGiPyk6g=
+		QoftWHE/OZ+QpDaLM6UuOWXBUIE=
 		</data>
-		<key>OSETSDK.bundle/OSETSDK_双鱼座.png</key>
+		<key>OSETSDK.bundle/OSETShakePhone@2x.png</key>
 		<data>
-		4tgH+XWsEbcWpf+w4asLCF2KZ5s=
+		VwarBHOW4WW5D5LvR25U/+IR5UM=
 		</data>
-		<key>OSETSDK.bundle/OSETSDK_处女座.png</key>
+		<key>OSETSDK.bundle/OSETShakePhone@3x.png</key>
 		<data>
-		GJ/0Tsxu/Ui9Wi5M7vA8KaUcVIU=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_天秤座.png</key>
-		<data>
-		vpO2iIUKbmWb9v2aJodrMpml6+Q=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_天蝎座.png</key>
-		<data>
-		eYLFlKCJ9gwOlJnH26zI+vu3rJU=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_射手座.png</key>
-		<data>
-		C7bR8FhoVvIWB2o89OKgZpP/c0Q=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_巨蟹座.png</key>
-		<data>
-		jNNV6Jhn9hMGHiLbMMHpqG7mjUI=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_摩羯座.png</key>
-		<data>
-		HNS2/YtTp59otfryVEIWXDL+yTY=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_水瓶座.png</key>
-		<data>
-		3xzSnhuynfC61P9UQEHYB2+YSbA=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_狮子座.png</key>
-		<data>
-		uqkLFiTJu9rrnf+BB/jcuRDKlRM=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_白羊座.png</key>
-		<data>
-		w7RJ98gy04k7Bq7EkunHCsCyD3g=
-		</data>
-		<key>OSETSDK.bundle/OSETSDK_金牛座.png</key>
-		<data>
-		sUIgmk0U3XgOvjDgXrWrVjIPKBc=
-		</data>
-		<key>OSETSDK.bundle/OSETTaskTableViewCell.nib</key>
-		<data>
-		dFv4Hui2Gz320CLFsl/d35KZgIs=
-		</data>
-		<key>OSETSDK.bundle/OSETTask_Lottery.png</key>
-		<data>
-		fT7Yb8xM3Ic28KLhSASquugxeWM=
-		</data>
-		<key>OSETSDK.bundle/OSETYDNewsNopicTableViewCell.nib</key>
-		<data>
-		VghO0KmdPD27omkWpf/dcrbQKkI=
-		</data>
-		<key>OSETSDK.bundle/OSETYDNewsSinglepicTableViewCell.nib</key>
-		<data>
-		6iASqT1UqJJnDs/uhedj+qfyQQI=
-		</data>
-		<key>OSETSDK.bundle/OSETYDNewsThreepicTableViewCell.nib</key>
-		<data>
-		g3CkIl402O5ixTJZ+bSaFLjo1hI=
-		</data>
-		<key>OSETSDK.bundle/OSETYDNewsVideoTableViewCell.nib</key>
-		<data>
-		Xb1YIQPO4aeRxYz4P0O9qr0aOZI=
-		</data>
-		<key>OSETSDK.bundle/OSET_Search@2x.png</key>
-		<data>
-		/fHlUobZnc6UdYJuFmxUbSo/qTA=
-		</data>
-		<key>OSETSDK.bundle/OSET_Weather_Select.png</key>
-		<data>
-		1CO8dvADclCUN1BIGSYC/H2xr80=
-		</data>
-		<key>OSETSDK.bundle/OSET_Weather_lei.png</key>
-		<data>
-		d8G1PAvugPc51M2DUWD/w1LhaHo=
-		</data>
-		<key>OSETSDK.bundle/OSET_Weather_qing.png</key>
-		<data>
-		i2va8q78tJFWSvCVxVTVbNNezdE=
-		</data>
-		<key>OSETSDK.bundle/OSET_Weather_yu.png</key>
-		<data>
-		4IDgBXg+fbll5gytFieOhsQXvD0=
-		</data>
-		<key>OSETSDK.bundle/OSET_Weather_yun.png</key>
-		<data>
-		rM1mNVkrc/qMYqygvEyg+KDDYMU=
-		</data>
-		<key>OSETSDK.bundle/OSET_XMLY_Back.png</key>
-		<data>
-		v9uc4gTgNLmQcdQthEZv0t7rEPQ=
-		</data>
-		<key>OSETSDK.bundle/OSET_XMLY_Catalogue.png</key>
-		<data>
-		mjzK6U7/cPxonDVURft8+w9sYmg=
-		</data>
-		<key>OSETSDK.bundle/OSET_XMLY_Close.png</key>
-		<data>
-		KiXtIb7UK92H5RwHObLVemdFgJc=
-		</data>
-		<key>OSETSDK.bundle/OSET_XMLY_Current.png</key>
-		<data>
-		MYQQ2JkCDdqMLycwhOjunyxzQVQ=
-		</data>
-		<key>OSETSDK.bundle/OSET_XMLY_Go.png</key>
-		<data>
-		jwssvv1EYidurUVlTWgUZdv9y/I=
-		</data>
-		<key>OSETSDK.bundle/OSET_XMLY_Next.png</key>
-		<data>
-		XSUZIxQJ8E8SDmWJmcnq0OSlDOI=
-		</data>
-		<key>OSETSDK.bundle/OSET_XMLY_Pause.png</key>
-		<data>
-		sY2yQL6uPWhbDBnVWXcyIFAhdI8=
-		</data>
-		<key>OSETSDK.bundle/OSET_XMLY_Play.png</key>
-		<data>
-		hby1V6j9rLZrNzs+4x41itGqnO0=
-		</data>
-		<key>OSETSDK.bundle/OSET_XMLY_Pre.png</key>
-		<data>
-		UwYEe5YDdg+4ODjGUoqjOVmv3UI=
-		</data>
-		<key>OSETSDK.bundle/OSET_XMLY_Search.png</key>
-		<data>
-		YsYFryELFS+uGjfNxiW7Nt3bxns=
+		6XvyKspSI4gDtwm6FOfxZoraaqQ=
 		</data>
 		<key>OSETSDK.bundle/back.png</key>
 		<data>
@@ -429,6 +297,41 @@
 			C8KZjnNqcVMQRRYMNIMSQJ3uSW1vrKBe6Hk03hIdZus=
 			</data>
 		</dict>
+		<key>Headers/OSETBannerAssetPrefetcher.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NvPSxmobWgPU7HH3Qx5doDsRO3kcXMWy5kr8dUwK54A=
+			</data>
+		</dict>
+		<key>Headers/OSETBannerCustomRenderAdProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PJuEuYjyBGt716afrJevzEMl5dgFS870r3l4UTJSjN0=
+			</data>
+		</dict>
+		<key>Headers/OSETBannerRenderContext.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NsUtDIxS7sZKy7JhhdeHr0x11wZgO2Vqs1U6fBfGL+s=
+			</data>
+		</dict>
+		<key>Headers/OSETBannerRenderData.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jb+DP3d6rzoNF0X4c1zjM/78UMNVo0Vrkf9TxgXRpzg=
+			</data>
+		</dict>
+		<key>Headers/OSETBannerTemplateView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1ZDJq/aHYXVBJTAP6r0TeSBSDS00ZHOmJcu0iVwXIjc=
+			</data>
+		</dict>
 		<key>Headers/OSETBaseAd.h</key>
 		<dict>
 			<key>hash2</key>
@@ -440,7 +343,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v0FiHjUmzPhF46NDjuhVuCQ0jh33eT8KMf87/NzhUCI=
+			MFJhAk8Kz1MmFOJnyyw7TJgA8gLUUz0gKBlBK7bTzSw=
 			</data>
 		</dict>
 		<key>Headers/OSETBaseView.h</key>
@@ -454,7 +357,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o8EVcKmm7EFxwDCKnotojmUr9mu+Z8IG2GzWMlkn1u0=
+			bWqaomOn0xORNMoXJ6Sex33KfBDtf2ADWJVaPf7RZLU=
 			</data>
 		</dict>
 		<key>Headers/OSETDrawAd.h</key>
@@ -573,7 +476,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MIy63OdAf1QZ27yRCRLpt5cgKbDcsHgNEPte695/BFE=
+			Ae62Hs+eBIQKkWL991STW28PJi7vTJyVAoIka341mww=
 			</data>
 		</dict>
 		<key>Headers/OSETSDKInitializable.h</key>
@@ -604,81 +507,25 @@
 			lGFCw2lbJ5Wo2I2gqXwrvDtz57oo4Lj9NVqYZ2fJM9k=
 			</data>
 		</dict>
-		<key>OSETSDK.bundle/OSETSDK_ActivityRules.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MifieVZfyQZl/fshJCxzCc8Jmm6IeCFxEIH1JuIeMEs=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_AwardsBg.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WecK/4oIJJYHVnSyyS5oRBA53RSD/9HPXdq+lAc52k0=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_AwardsContentBg.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			U0AAairUTiNLrFClEoXm479+qk+3XtpOBWxiPn6jQn0=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_AwardsTop.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			n4Vnv33qgkN+fT1HVch9kQp2NsaYF107fVnrs5ELWnU=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_BitmapLeft.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zvOIqb+Ty9gCp995EIG28Xfj9L+Jqaqj9TgzIGJpQQY=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_BitmapRight.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zFxk9pBTw+MN8CRJdRrPNb7kfAsnZoOk6YFdFCk6Dqc=
-			</data>
-		</dict>
 		<key>OSETSDK.bundle/OSETSDK_Close.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eLY6Hu32DWKlNL90d3P148cdmq05xcLNux0T0ozBv+w=
+			iem3eSQOTE9GRBgvIGDKAY6TyWvuVR9ktlahUXv2CNM=
 			</data>
 		</dict>
-		<key>OSETSDK.bundle/OSETSDK_DayTask.png</key>
+		<key>OSETSDK.bundle/OSETSDK_GrayLogo.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			156dkrCYhf9jHxVxAw62KwrbhQqSWZIBk1C2JgUL8Dc=
+			WLXnrxavUKTdfBwWPJ2z4VpaUtVlfdqT3k6z3ypKJ3k=
 			</data>
 		</dict>
-		<key>OSETSDK.bundle/OSETSDK_Dial.png</key>
+		<key>OSETSDK.bundle/OSETSDK_Logo.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WG08II2zry+Yqhjki8CFjyAK7BfGHIMM0Q8E6sEENVY=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_DialBg.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XxCvWM09u2A++K9bFShw3VYBGd6QDLQpi7Yz4WUKGvk=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_GsouTask.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LLi3/cibJWCpttgACf6S0S8HRWFvUZUDzckXgbte3lA=
+			0wTScpZnXBEBtWFBAHfXQ942XyJTM227p+Pghnyb3iE=
 			</data>
 		</dict>
 		<key>OSETSDK.bundle/OSETSDK_LongCoupon.png</key>
@@ -688,11 +535,11 @@
 			TtxGf7xmZ6WyPDS075Tfog/mPNMu3uX4fqfeuTIJfao=
 			</data>
 		</dict>
-		<key>OSETSDK.bundle/OSETSDK_SelectShowAd.png</key>
+		<key>OSETSDK.bundle/OSETSDK_Refresh.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MS3JoDjGcb/dHMPKXs1eHhzbMSyIu151cZCdkyESJ9E=
+			baxdFXOjIM/KcYEF98izINx6NYCi8GDq7xnNV9/0ZpM=
 			</data>
 		</dict>
 		<key>OSETSDK.bundle/OSETSDK_ShortCoupon.png</key>
@@ -709,6 +556,13 @@
 			ZstcIs0jfvVNUZCn9lmSnkDQDV7DE2YoeCnCiRCMdqY=
 			</data>
 		</dict>
+		<key>OSETSDK.bundle/OSETSDK_back.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			heecdRwdULE4E2gnPIbCxFQJbSohZmP06hZKEtkZ/uM=
+			</data>
+		</dict>
 		<key>OSETSDK.bundle/OSETSDK_back@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -723,25 +577,25 @@
 			1/pjPMQUyvDJzvnnNFziJEUZByWYCdM7PpnFGdbJDDE=
 			</data>
 		</dict>
-		<key>OSETSDK.bundle/OSETSDK_bgImage.png</key>
+		<key>OSETSDK.bundle/OSETSDK_close_Image.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mRC1WhmxbhAU7JtSP245VJ/Qf+u5J5nDpnAuPPBHXIQ=
+			Cx4XdTaTQtFh5kJOfKovsqBBavM4b6c4qjxl51XXPm0=
 			</data>
 		</dict>
-		<key>OSETSDK.bundle/OSETSDK_bgImage1.png</key>
+		<key>OSETSDK.bundle/OSETSDK_close_native.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K4Yk6w/vOBlF/E0Lru9r2MH/rzmPVEFXO8E1cE9KLcA=
+			rxg2TL3sPRZJFji7agEaQS2N19bbLfL1R3miDad8I3g=
 			</data>
 		</dict>
-		<key>OSETSDK.bundle/OSETSDK_bgImage2.png</key>
+		<key>OSETSDK.bundle/OSETSDK_jingyin.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t9ofjs/JHK/3toPHekell4pfo3za+WQwvMrCs2HkJjk=
+			gdUqDP00IECg5RwtRw9USbkl3Kg3MAXxE/uAzQm/WCU=
 			</data>
 		</dict>
 		<key>OSETSDK.bundle/OSETSDK_nav_back@3x.png</key>
@@ -751,242 +605,25 @@
 			ccBZVXfQT1nl6TRPIXM/XCzlr65HbezndJxLQnn5BkY=
 			</data>
 		</dict>
-		<key>OSETSDK.bundle/OSETSDK_双子座.png</key>
+		<key>OSETSDK.bundle/OSETSDK_volume.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RFMXiUzDU1oXmpjdJsLO8ICuvI8HLIoG8VMPuGyhkCw=
+			2/WmkPT7jSW38KS2+clIFgsSfnXeFSbH8+BakvK8ThM=
 			</data>
 		</dict>
-		<key>OSETSDK.bundle/OSETSDK_双鱼座.png</key>
+		<key>OSETSDK.bundle/OSETShakePhone@2x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			63SJQasT76iYf7luuseU4gh+ggFByCgsAtnvWl1b2UA=
+			0DVv1g7U6j8Mxxw5o7vr0HiGmD7S2YpRO6zfV+S+OhQ=
 			</data>
 		</dict>
-		<key>OSETSDK.bundle/OSETSDK_处女座.png</key>
+		<key>OSETSDK.bundle/OSETShakePhone@3x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r3u9KNOmtjJmqkCD0qwI7gvWN6GoRoDcRVFA2R0oaGQ=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_天秤座.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EGDCdToXA5VyIzo3trRwyfzbqoO+IGMo4gNUgI/uQ40=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_天蝎座.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2uVMDrkVvAwBXmeFHn8a2TWdAaf9KsqnBqQYFPMvIjA=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_射手座.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FYHB4Fjs29ouT0wUtDFbST1VpppzvIK65zl9YVEvWSs=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_巨蟹座.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5fzgeoHh+vx1ctz9EfEexb4HOZvLBNmDtHW5mlT/wwA=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_摩羯座.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0Ol+DO1IuqdsyYgFn70aXNXTdnJ49Js/X/zTKXbnWyE=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_水瓶座.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZViwou4xm6Ofyru2cV1/XJtQgh5Dcq8Hj9tJ1taRDhQ=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_狮子座.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OsR7EyI2kUFhGgST0xabWSUsnV853b6mUBGb6/GjjQw=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_白羊座.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9JXEWjBQrhRYfe9Xpfl/X4S+p0XsM+D/tTOghjfVXBQ=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETSDK_金牛座.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			E/8m1832HQwVgHJ7ip4SExkWIDQIU6wV3bWM9CgkpDU=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETTaskTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uwK/pVl9m3rDwpsYmKRENzWKQ0Gex4D01h9Q855z+kE=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETTask_Lottery.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nPieXvopZJHT3ntnWYONa+yQ07Vt9H6KTg4lLiW9ioU=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETYDNewsNopicTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fVmRom1uPoIywRo/nqJoPP5QoN0xHFpkw78WpZ1q5KY=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETYDNewsSinglepicTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+KEsHeIqO0gatcobTNG2ExRwLPXl8xw5qw94bi7qTd8=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETYDNewsThreepicTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bHdMCpO4anzFKtaBxHAzXzoNGsNPd/t4yAhtuIO1GRQ=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSETYDNewsVideoTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6wOtVgvR2Oy0mPoVwCmGv0n5gxh5HBp7UiHUU6qjqwk=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_Search@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			owG0nqlnAzyFkBm8q9EiX/WNLeosz5Qs/+w2yTy1mzI=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_Weather_Select.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			48m3rrqbJ5aK3snZgQPF98ltzoTgq/0IMoQHICcGAgA=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_Weather_lei.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wNr5hBvQBy6pbg/ItViXgNTAynNUrRmBBXmkGRN/VFc=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_Weather_qing.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y7KZk8aZoP4/rnM7ErCLCC3ijelqNlAf9oJd7Hhkt0M=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_Weather_yu.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ojoHmyyeMUlN8RHIADyiPXAuD82dKqKofKupE0HzOCI=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_Weather_yun.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5PJFiUPW0La88nx8d0EffYE8gds8Hpd5zAJJgPghOf8=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_XMLY_Back.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5y8mEkDyqdP6ZsdfK29LlpVX/nGjl3nc9OyVjRY3smg=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_XMLY_Catalogue.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fz6xm+RK4BgvSl0Zd/JMn9B+lMZeQJ+ANkON34i7U+M=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_XMLY_Close.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tJz5K8uNAR1MaUtCN2LsvlU10do6yNJ4ZAJrWgRS4M0=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_XMLY_Current.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OHpS8rcIOPIKyg3QRlplF1zY1P0KHbiqS3FxyqW4uF0=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_XMLY_Go.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b2nUrIKiteHIuOM1HzAKvHypwloV9vkJpqi3Ot+W/ek=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_XMLY_Next.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4wQrNXg+vUPucvMDBEP7LjAOJRXSAbE0M+f/PCtrijw=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_XMLY_Pause.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MCu+8kYox7yCzhtqY+pKM6dSbOU5LefhVxv8AIwex0Q=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_XMLY_Play.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sY92hR0SPFh4b6C6955XZy9l4yxHYxzK+h5086ZUDWA=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_XMLY_Pre.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5xLLtG5iLdTDg87RnFLA94k+T+ZiIP1vuELVPvMdgpI=
-			</data>
-		</dict>
-		<key>OSETSDK.bundle/OSET_XMLY_Search.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NDc6MbLq/x/AkI6B2zZBHL73ip80qh7MRntatqrpEsE=
+			4S4Kp9zIvIH8LB54Vnijjhsp+rBqzDZZjcaOztQxdOo=
 			</data>
 		</dict>
 		<key>OSETSDK.bundle/back.png</key>

@@ -9,6 +9,7 @@
 #import "OSETAdError.h"
 #import "OSETBaseAdProtocol.h"
 #import "OSETRewardedVideoAdProtocol.h"
+//#import "OSETHeader.h"
 NS_ASSUME_NONNULL_BEGIN
 
 NS_INLINE OSETAdError *OSETCommonAdapterError(NSInteger code, NSString *message) {
@@ -25,6 +26,26 @@ NS_INLINE OSETAdError *OSETCommonAdapterLoadError(NSError * _Nullable error) {
     NSString *errorMessage = resolvedError.localizedDescription ?: @"未知错误";
     return [OSETAdError errorWithCode:resolvedError.code
                               message:[NSString stringWithFormat:@"广告加载失败: %@", errorMessage]];
+}
+
+/// 构造脱敏的展示失败错误。只提取整数错误码，不透传原始 NSError 的 domain/message/userInfo。
+NS_INLINE OSETAdError *OSETCommonAdapterShowError(NSError * _Nullable error,
+                                                  NSInteger fallbackCode,
+                                                  NSString * _Nullable message) {
+    NSInteger code = fallbackCode;
+    if ([error isKindOfClass:[NSError class]] && error.code != 0) {
+        code = error.code;
+    }
+    return [OSETAdError errorWithCode:code message:(message ?: @"广告展示失败")];
+}
+
+/// 通知接收方（Load 层）展示失败。只做 selector 检查，接收方不支持则静默丢弃。
+NS_INLINE void OSETCommonNotifyShowFailed(id<OSETBaseAdDelegate> _Nullable delegate,
+                                          id<OSETBaseAdProtocol> ad,
+                                          OSETAdError *error) {
+    if ([delegate respondsToSelector:@selector(OSETAdapterAd:didShowFailedWithError:)]) {
+        [delegate OSETAdapterAd:ad didShowFailedWithError:error];
+    }
 }
 
 NS_INLINE NSInteger OSETCommonBidPrice(NSInteger price) {

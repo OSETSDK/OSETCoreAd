@@ -31,10 +31,17 @@ FOUNDATION_EXPORT const unsigned char OSETSDKVersionString[];
 #import <OSETSDK/OSETBaseView.h>
 #import <OSETSDK/OSETDrawAd.h>
 
+// Banner 自渲染统一模板
+#import <OSETSDK/OSETBannerRenderData.h>
+#import <OSETSDK/OSETBannerRenderContext.h>
+#import <OSETSDK/OSETBannerTemplateView.h>
+#import <OSETSDK/OSETBannerAssetPrefetcher.h>
+
 
 #import <OSETSDK/OSETSDKInitializable.h>
 #import <OSETSDK/OSETSplashAdProtocol.h>
 #import <OSETSDK/OSETBannerAdProtocol.h>
+#import <OSETSDK/OSETBannerCustomRenderAdProtocol.h>
 #import <OSETSDK/OSETInterstitialAdProtocol.h>
 #import <OSETSDK/OSETNativeAdProtocol.h>
 #import <OSETSDK/OSETNativeDataAdProtocol.h>
