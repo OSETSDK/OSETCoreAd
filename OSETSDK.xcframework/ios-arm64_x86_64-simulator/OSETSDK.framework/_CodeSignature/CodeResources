@@ -20,6 +20,14 @@
 		<data>
 		OfrQhxXbMjQphUvaKr3GXvCPFIU=
 		</data>
+		<key>Headers/OSETAdManager.h</key>
+		<data>
+		ww0f9uBWpbmvjDYtUpIsSHC9L1s=
+		</data>
+		<key>Headers/OSETAdTypes.h</key>
+		<data>
+		nZXVVx5LsJxaKdd5V31qNf2qFfU=
+		</data>
 		<key>Headers/OSETBannerAd.h</key>
 		<data>
 		KYZlUEkyiI76I6dY4ehFQLc0cF0=
@@ -54,7 +62,7 @@
 		</data>
 		<key>Headers/OSETBaseAdProtocol.h</key>
 		<data>
-		MGfauTwt2pmrnQx80oPDS3B48uM=
+		5de2Q8dMX//dumLzPg6/bpMJ2a4=
 		</data>
 		<key>Headers/OSETBaseView.h</key>
 		<data>
@@ -62,7 +70,7 @@
 		</data>
 		<key>Headers/OSETCommonAdapterSupport.h</key>
 		<data>
-		29p6Y4LCNinA1wvC3g0cXOt5FY8=
+		745f5Lp4MtwYDVnvBZET5bHhwYw=
 		</data>
 		<key>Headers/OSETDrawAd.h</key>
 		<data>
@@ -130,7 +138,7 @@
 		</data>
 		<key>Headers/OSETSDK.h</key>
 		<data>
-		vwMPGPbcDFnyEKX1TPXicgWduww=
+		KTaM2v0bCZvAIX2dZqMRgq2ndCE=
 		</data>
 		<key>Headers/OSETSDKInitializable.h</key>
 		<data>
@@ -283,6 +291,20 @@
 			HOpbP3ETTbH3yhfl9pI+p2kpJqPano2hyM0GEFgCBUs=
 			</data>
 		</dict>
+		<key>Headers/OSETAdManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NDVttWqr+yX2MPHSyjzJWqIGq6DM/eIMzWYjATR/cuM=
+			</data>
+		</dict>
+		<key>Headers/OSETAdTypes.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YAmYaklAG42fFJEUI/DCriT9FjfKH652ZtidZRLGAqk=
+			</data>
+		</dict>
 		<key>Headers/OSETBannerAd.h</key>
 		<dict>
 			<key>hash2</key>
@@ -343,7 +365,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MFJhAk8Kz1MmFOJnyyw7TJgA8gLUUz0gKBlBK7bTzSw=
+			f0dfq7E2WLXp8U3Wl5eq0yuxS4Ki1YHTmEfg5nSDOmA=
 			</data>
 		</dict>
 		<key>Headers/OSETBaseView.h</key>
@@ -357,7 +379,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bWqaomOn0xORNMoXJ6Sex33KfBDtf2ADWJVaPf7RZLU=
+			AAQ9cFm4YJMhPQ3cWiblNoxK0P7biRlvHqTepUsS6yg=
 			</data>
 		</dict>
 		<key>Headers/OSETDrawAd.h</key>
@@ -476,7 +498,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ae62Hs+eBIQKkWL991STW28PJi7vTJyVAoIka341mww=
+			b9QFsY25dIKS6n+nNO2IeWmZuUyUeRAxo78mXNTMCU4=
 			</data>
 		</dict>
 		<key>Headers/OSETSDKInitializable.h</key>

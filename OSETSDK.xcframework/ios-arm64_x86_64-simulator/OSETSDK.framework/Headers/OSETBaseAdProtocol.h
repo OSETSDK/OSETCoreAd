@@ -127,15 +127,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  广告展示失败回调
- 
+
  @param ad 广告适配器
  @param error 错误信息
+ @discussion 与「加载失败」不同：广告已加载成功，是在 show 阶段失败的（渲染失败、
+ 素材过期、渠道侧风控拦截等）。适配器请统一用 OSETCommonNotifyShowFailed() 上报，
+ 不要复用 didLoadFailedWithError: —— 那会把已完成的加载流程重新拖回 loadComplete。
  */
 - (void)OSETAdapterAd:(id<OSETBaseAdProtocol>)ad didShowFailedWithError:(OSETAdError *)error;
 
 /**
  广告被点击回调
- 
+
  @param ad 广告适配器
  */
 - (void)OSETAdapterAdDidClick:(id<OSETBaseAdProtocol>)ad;

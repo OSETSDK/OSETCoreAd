@@ -76,6 +76,7 @@ NS_INLINE void OSETCommonNotifyShown(id<OSETBaseAdDelegate> _Nullable delegate,
     }
 }
 
+
 NS_INLINE void OSETCommonNotifyClicked(id<OSETBaseAdDelegate> _Nullable delegate,
                                        id<OSETBaseAdProtocol> ad) {
     if ([delegate respondsToSelector:@selector(OSETAdapterAdDidClick:)]) {

@@ -51,3 +51,8 @@ FOUNDATION_EXPORT const unsigned char OSETSDKVersionString[];
 #import <OSETSDK/OSETInitConfig.h>
 #import <OSETSDK/OSETAdError.h>
 #import <OSETSDK/OSETCommonAdapterSupport.h>
+
+// 适配器 SPI —— 独立发布的渠道适配器（AdSetQDxAdapter 等）依赖这两个头。
+// 改动前请确认不会破坏已发布适配器的兼容性。
+#import <OSETSDK/OSETAdTypes.h>
+#import <OSETSDK/OSETAdManager.h>
