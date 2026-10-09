@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)rewardVideoDidExposured:(id)rewardVideoAd;
 
+/// 以下回调触发时，checkString 与 adRequestId 一致；无有效广告 ID 时为空串，取值不受激励校验开关控制。
 /// 激励视频关闭
 - (void)rewardVideoDidClose:(id)rewardVideoAd checkString:(NSString *)checkString;
 //激励视频播放出错
@@ -46,6 +47,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak) id <OSETRewardVideoAdDelegate> delegate;
 @property(nonatomic,readonly,copy)NSString * slotId;
 @property(nonatomic,readonly,assign)NSInteger eCPM;
+/// 当前广告的唯一标识，与激励视频回调的 checkString 使用相同生成规则。
+@property (atomic, copy, readonly, nullable) NSString *adRequestId;
 
 @property (nonatomic,copy)   NSString *userId;//userId 用户标识符show之前设置有效
 

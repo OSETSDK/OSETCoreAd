@@ -26,6 +26,13 @@ FOUNDATION_EXPORT NSString * const OSETBiddingInfoExtraKey;
 @property (nonatomic, copy) NSString *biddingToken;
 
 -(NSString *)getS2SInfo;
+/// 服务端竞价的加载入口：把宿主竞得的 token 交给该广告对象，结果通过 delegate 回调给出。
+///
+/// ⚠️ **本方法立即返回**，成功/失败回调恰好一次、**恒在主线程**送达，别依赖返回时广告已就绪。
+/// 2026-09 起 token 的解密与 JSON 解析已移到后台并发池 —— 素材直投的回传 token 是 KB 级，
+/// 1024 位密钥分块 RSA 解密在宿主调用线程（通常主线程）上要几百毫秒，是线上卡顿报告的实锤来源。
+/// ⚠️ 因此**同一对象上的重复加载不再被主线程天然串行化**：本方法内部不挡重复调用，
+/// 需要「一次只允许一个在飞」的语义请在调用侧自己做互斥。
 -(void)loadAdWithToken:(NSString *)token;
 -(void)cacheAd;
 

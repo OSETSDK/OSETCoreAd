@@ -36,6 +36,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,weak) id <OSETInterstitialAdDelegate> delegate;
 @property(nonatomic,readonly,assign)NSInteger eCPM;
+/// 当前广告的唯一标识，与激励视频回调的 checkString 使用相同生成规则。
+@property (atomic, copy, readonly, nullable) NSString *adRequestId;
 /**
  * 返回广告是否可展示 建议在展示广告之前判断
  */

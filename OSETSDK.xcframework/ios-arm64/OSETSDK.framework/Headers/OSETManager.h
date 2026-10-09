@@ -33,9 +33,18 @@ typedef NS_ENUM(NSInteger, OSETLoadADType) {
 
 
 @interface OSETManager : NSObject
+/// 客户端配置，默认 NO（允许摇一摇/扭一扭）。建议 configure: 前设置。
 @property (nonatomic, assign) BOOL disableShake;
 
+/// 客户端个性化广告配置，默认 YES；API 奇点用于控制 IDFA 采集和输出。
 @property (nonatomic, assign) BOOL isEnablePersonalAds;
+
+/// API 奇点经纬度采集/输出控制，默认 YES。建议 configure: 前设置。
+/// 关闭后后续取值返回 0，重新开启异步获取。SDK 不主动申请系统定位权限。
+@property (nonatomic, assign) BOOL isEnableLocation;
+/// API 奇点 SSID 采集/输出控制，默认 YES。建议 configure: 前设置。
+/// 关闭后后续取值返回空串，重新开启异步获取。已生成或发出的请求不追溯修改。
+@property (nonatomic, assign) BOOL isEnableSSID;
 
 + (instancetype)shareInstance;
 

@@ -69,6 +69,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *privacyUrl;
 @property (nonatomic, copy) NSString *updateTime;
 @property(nonatomic,readonly,assign)NSInteger eCPM;
+/// 当前广告的唯一标识，与激励视频回调的 checkString 使用相同生成规则。
+@property (atomic, copy, readonly, nullable) NSString *adRequestId;
 
 
 @property (nonatomic, assign) BOOL isSS;
