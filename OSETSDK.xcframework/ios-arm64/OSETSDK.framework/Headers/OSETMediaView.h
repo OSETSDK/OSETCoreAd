@@ -25,6 +25,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)OSETMediaViewDidPlayFinished:(OSETMediaView *)mediaView;
 
+/** 实际开始播放，同一次数据绑定仅通知一次。 */
+- (void)OSETMediaViewDidPlayStart:(OSETMediaView *)mediaView;
+
+/** 视频素材加载或播放失败。 */
+- (void)OSETMediaViewDidPlayError:(OSETMediaView *)mediaView error:(NSError *)error;
+
 @end
 
 

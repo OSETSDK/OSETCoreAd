@@ -1,6 +1,5 @@
 framework module OSETSDK {
   umbrella header "OSETSDK.h"
-
   export *
   module * { export * }
 }

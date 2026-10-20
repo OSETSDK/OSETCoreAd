@@ -36,6 +36,17 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)OSETNativeAdRendererDetailViewClosed:(OSETNativeAdRenderer *)renderer;
 
+/**
+开始播放，在主线程回调；同一次数据绑定仅通知一次，暂停恢复不重复通知。
+ */
+- (void)OSETNativeAdRendererPlayStart:(OSETNativeAdRenderer *)renderer;
+
+/** 视频素材加载或播放失败，在主线程回调，同一次数据绑定仅通知一次。 */
+- (void)OSETNativeAdRendererPlayError:(OSETNativeAdRenderer *)renderer error:(NSError *)error;
+
+/** 视频正常播放完成，在主线程回调，同一次数据绑定仅通知一次。 */
+- (void)OSETNativeAdRendererPlayComplete:(OSETNativeAdRenderer *)renderer;
+
 @end
 
 @interface OSETNativeAdRenderer : NSObject
