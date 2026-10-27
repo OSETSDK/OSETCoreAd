@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETCoreAd"
-  s.version      = "7.0.3.4"
+  s.version      = "7.0.3.5"
   s.summary      = "奇点广告对接"
   s.description  = <<-DESC
                       OSETCoreAd 是一个专业的广告SDK，提供高效的广告展示和收益优化功能。
