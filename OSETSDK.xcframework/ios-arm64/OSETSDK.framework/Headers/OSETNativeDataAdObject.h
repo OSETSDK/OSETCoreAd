@@ -6,6 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
+
+@class UIImage;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface OSETNativeDataAdObject : NSObject
@@ -51,6 +54,8 @@ NS_ASSUME_NONNULL_BEGIN
  广告 图标Url
  */
 @property (nonatomic, copy) NSString * adIconUrl;
+/// 厂商原始广告标识图。宿主可优先展示此图，其次使用 adIconUrl。
+@property (nonatomic, strong, readonly, nullable) UIImage *adMarkImage;
 /**
  视频封面信息
  */

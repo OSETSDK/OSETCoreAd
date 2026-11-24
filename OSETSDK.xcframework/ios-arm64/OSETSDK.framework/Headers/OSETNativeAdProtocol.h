@@ -28,6 +28,10 @@ NS_ASSUME_NONNULL_BEGIN
 
  */
 - (void)setViewController:(nullable UIViewController *)viewController;
+
+@optional
+/// 在主线程同步绑定模板视图。广告失效或模板不可用时返回 NO。
+- (BOOL)bindToView:(OSETBaseView *)view viewController:(nullable UIViewController *)viewController;
 @end
 
 #pragma mark - native广告代理协议

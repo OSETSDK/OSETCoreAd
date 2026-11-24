@@ -20,6 +20,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)showInViewController:(UIViewController *)viewController;
 
+@optional
+/// 在展示已缓存素材时绑定本次用户。渠道支持此入口时，Core 优先使用它。
+- (void)showInViewController:(UIViewController *)viewController rewardUserId:(nullable NSString *)userId;
 
 @end
 

@@ -22,10 +22,8 @@ extern NSString *const OSETAdTypeSplashKeyString;
 extern NSString *const OSETAdTypeInterstitialKeyString;
 extern NSString *const OSETAdTypeRewardedVideoKeyString;
 extern NSString *const OSETAdTypeBannerKeyString;
-extern NSString *const OSETAdTypeDrawNativeKeyString;
 extern NSString *const OSETAdTypeNativeKeyString;
 extern NSString *const OSETAdTypeNativeDataKeyString;
-extern NSString *const OSETAdTypeFullScreenVideoKeyString;
 extern NSString *const OSETAdTypeContentVideoKeyString;
 /**
  广告管理器

@@ -26,7 +26,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)rewardVideoDidExposured:(id)rewardVideoAd;
 
-/// 以下回调触发时，checkString 与 adRequestId 一致；无有效广告 ID 时为空串，取值不受激励校验开关控制。
+/// checkString 对应本次展示在加载成功时的 adRequestId。同实例提前加载下一条时，以回调中的 checkString 识别本次展示。
+/// 无有效广告 ID 时返回空串，取值不受激励校验开关控制。
 /// 激励视频关闭
 - (void)rewardVideoDidClose:(id)rewardVideoAd checkString:(NSString *)checkString;
 //激励视频播放出错

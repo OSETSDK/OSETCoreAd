@@ -50,10 +50,18 @@ NS_ASSUME_NONNULL_BEGIN
 /// 在原生广告视图中注册可点击视图。
 - (void)registerContainer:(UIView * _Nonnull)containerView withClickableViews:(NSArray<UIView *> * _Nonnull)clickableViews;
 
-- (void)registerCloseView:(UIView *)closeView;
+/// 实现 unregisterContainer 的适配器支持传 nil 解除关闭控件绑定。
+- (void)registerCloseView:(nullable UIView *)closeView;
 
 /// 销毁数据
 - (void)unregisterDataObject;
+
+@optional
+/// 渠道 SDK 提供的广告标识图。未提供时仍可使用 logoUrl。
+- (nullable UIImage *)adMarkImage;
+
+/// 注销点击和曝光绑定，保留当前关闭控件。
+- (void)unregisterContainer;
 //- (void)showInView:(OSETBaseView *)view ViewController:(UIViewController *)viewController;
 //-(UIView *)getBgView;
 @end
@@ -68,6 +76,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)OSETAdapterAdRenderSuccess:(id<OSETNativeDataAdProtocol>)ad;
 
 @optional
+/// 已绑定的素材主动失效。主线程通知宿主结束展示，不代表点击关闭控件。
+- (void)OSETAdapterNativeDataDidInvalidate:(id<OSETNativeDataAdProtocol>)ad;
 
 @end
 

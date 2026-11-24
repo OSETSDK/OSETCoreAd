@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
-/// 广告类型
+/// 广告类型。7、8 为已下线广告类型预留。
 typedef NS_ENUM(NSInteger, OSETAdType) {
     OSETAdTypeUnknown       = 0,    ///< 未知类型
     OSETAdTypeSplash        = 1,    ///< 开屏广告
@@ -19,8 +19,6 @@ typedef NS_ENUM(NSInteger, OSETAdType) {
     OSETAdTypeBanner        = 4,    ///< Banner广告
     OSETAdTypeNative        = 5,    ///< 原生广告
     OSETAdTypeNativeData        = 6,    ///< 原生广告
-    OSETAdTypeFullScreenVideo = 7,  ///< 全屏视频
-    OSETAdTypeDrawFeed      = 8,    ///< Draw流广告
 };
 #pragma mark - 竞价失败原因枚举
 /**

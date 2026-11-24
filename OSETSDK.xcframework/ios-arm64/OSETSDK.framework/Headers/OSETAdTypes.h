@@ -16,19 +16,17 @@
 
 #import <Foundation/Foundation.h>
 
-/// 广告类型
+/// 广告类型。3、6 为已下线广告类型预留，其他值与已编译适配器保持一致。
 typedef NS_ENUM(NSInteger, YhsLoadADType) {
-    kYhsLoadADTypeSplash,                 //开屏
-    kYhsLoadADTypeBanner,                 //banner
-    kYhsLoadADTypeInterstitial,           //插屏
-    kYhsLoadADTypeFullScreenVideo,        //全屏视频
-    kYhsLoadADTypeRewardedVideo,          //激励视频
-    kYhsLoadADTypeNative,                 //信息流
-    kYhsLoadADTypeDrawNative,             //Draw 信息流
-    kYhsLoadADTypeSuspend,                //悬浮
-    kYhsLoadADTypeInterstitialLandscape,  //插横屏
-    kYhsLoadADTypeNativeData,             //自渲染
-    kYhsLoadADTypeContentVideo            //快手内容
+    kYhsLoadADTypeSplash = 0,                 //开屏
+    kYhsLoadADTypeBanner = 1,                 //banner
+    kYhsLoadADTypeInterstitial = 2,           //插屏
+    kYhsLoadADTypeRewardedVideo = 4,          //激励视频
+    kYhsLoadADTypeNative = 5,                 //信息流
+    kYhsLoadADTypeSuspend = 7,                //悬浮
+    kYhsLoadADTypeInterstitialLandscape = 8,  //插横屏
+    kYhsLoadADTypeNativeData = 9,             //自渲染
+    kYhsLoadADTypeContentVideo = 10            //快手内容
 };
 
 #endif /* OSETAdTypes_h */

@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (OSETAdConfig *)adConfig;
 
 /// 设置代理（用方法代替属性）
-- (void)setAdapterDelegate:(id)delegate;
+- (void)setAdapterDelegate:(nullable id)delegate;
 
 
 

@@ -27,6 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 广告容器，即模板本身。渠道 registerContainer 时传它。
 @property (nonatomic, weak, readonly, nullable) UIView *containerView;
 
+/// 覆盖完整模板的内容区，关闭键位于其层级之外。供会给注册容器本身加点击手势的渠道使用。
+@property (nonatomic, weak, readonly, nullable) UIView *interactionContainerView;
+
 /// 视频素材时，渠道把自己的播放 View 挂进来。核心不自建播放器。
 @property (nonatomic, weak, readonly, nullable) UIView *mediaContainerView;
 

@@ -21,7 +21,6 @@ FOUNDATION_EXPORT const unsigned char OSETSDKVersionString[];
 #import <OSETSDK/OSETInterstitialAd.h>
 #import <OSETSDK/OSETInterstitialLandscapeAd.h>
 #import <OSETSDK/OSETRewardVideoAd.h>
-#import <OSETSDK/OSETFullscreenVideoAd.h>
 #import <OSETSDK/OSETNativeAd.h>
 #import <OSETSDK/OSETNativeDataAd.h>
 #import <OSETSDK/OSETNativeDataAdObject.h>
@@ -29,7 +28,6 @@ FOUNDATION_EXPORT const unsigned char OSETSDKVersionString[];
 #import <OSETSDK/OSETMediaView.h>
 #import <OSETSDK/OSETShakeView.h>
 #import <OSETSDK/OSETBaseView.h>
-#import <OSETSDK/OSETDrawAd.h>
 
 // Banner 自渲染统一模板
 #import <OSETSDK/OSETBannerRenderData.h>

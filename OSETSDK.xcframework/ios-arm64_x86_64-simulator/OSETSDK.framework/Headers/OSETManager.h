@@ -17,18 +17,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-//广告类型
+/// 广告类型。5、7 为已下线广告类型预留。
 typedef NS_ENUM(NSInteger, OSETLoadADType) {
-    OSETLoadADTypeSplash,                 //开屏
-    OSETLoadADTypeBanner,                 //banner
-    OSETLoadADTypeInterstitial,           //插屏
-    OSETLoadADTypeInterstitialLandscape,  //插横屏
-    OSETLoadADTypeRewardedVideo,          //激励视频
-    OSETLoadADTypeFullScreenVideo,        //全屏视频
-    OSETLoadADTypeNative,                 //信息流
-    OSETLoadADTypeDrawNative,             //Draw 信息流
-    OSETLoadADTypeSuspend,                //悬浮
-    OSETLoadADTypeContentVideo            //快手内容
+    OSETLoadADTypeSplash = 0,                 //开屏
+    OSETLoadADTypeBanner = 1,                 //banner
+    OSETLoadADTypeInterstitial = 2,           //插屏
+    OSETLoadADTypeInterstitialLandscape = 3,  //插横屏
+    OSETLoadADTypeRewardedVideo = 4,          //激励视频
+    OSETLoadADTypeNative = 6,                 //信息流
+    OSETLoadADTypeSuspend = 8,                //悬浮
+    OSETLoadADTypeContentVideo = 9            //快手内容
 };
 
 
@@ -54,6 +52,15 @@ SDK初始化
  @param publicId 初始化Id（appKey）
  */
 + (void)configure:(NSString *)publicId;
+
+#if DEBUG
+/// 仅 Debug 可选测试环境；默认正式。须在任何 SDK 配置/缓存使用前设置，冻结后改变取值返回 NO。
+/// 测试环境仅影响初始化、排序和奇点 ADX 请求；Demo 选择在下次冷启动时下发。
++ (BOOL)setUseTestEnvironment:(BOOL)enabled;
+
+/// 返回本次进程实际使用的环境，不读取或修改 Demo 的下次启动偏好。
++ (BOOL)isUsingTestEnvironment;
+#endif
 
 /// 获取聚合SDK版本号
 + (NSString *)version;

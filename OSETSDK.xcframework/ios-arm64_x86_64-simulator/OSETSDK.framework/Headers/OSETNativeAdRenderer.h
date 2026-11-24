@@ -31,6 +31,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)OSETNativeAdRendererDidClose:(OSETNativeAdRenderer *)renderer;
 
+/// 渠道主动结束已绑定素材的展示，在主线程通知。此时 renderer 已注销该素材，宿主可移除对应视图。
+- (void)OSETNativeAdRenderer:(OSETNativeAdRenderer *)renderer
+     didInvalidateDataObject:(OSETNativeDataAdObject *)dataObject;
+
+/// 渠道反馈展示失败时在主线程通知。error 提供错误码及 SDK 的简要说明。
+- (void)OSETNativeAdRenderer:(OSETNativeAdRenderer *)renderer
+        didFailToShowWithError:(NSError *)error;
+
 /**
  广告详情页关闭回调
  */
