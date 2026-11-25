@@ -1,6 +1,6 @@
 # OSETCoreAd
 
-OSET 零渠道 Core 二进制交付仓库。`7.0.4.0` 提供 M 渠道的 `tuiyi` 运行时注册；渠道实现和渠道 SDK 通过独立 Pod 安装。
+OSET 零渠道 Core 二进制交付仓库。`7.0.4.2` 新增 K 渠道的 `hxe` 默认注册，并补充开屏、激励视频和初始化的生命周期处理。渠道实现和渠道 SDK 通过独立 Pod 安装。
 
 该版本使用当前 Core 源码快照构建，同时包含已有 SKT 实现与 `jili` 配置类型容错。发布包沿用外置阿里云日志依赖方式，公开头仅声明 Release 二进制提供的接口。
 
@@ -13,7 +13,7 @@ source 'https://cdn.cocoapods.org/'
 platform :ios, '12.0'
 
 target 'YourApp' do
-  pod 'OSETCoreAd', '7.0.4.0'
+  pod 'OSETCoreAd', '7.0.4.2'
 end
 ```
 

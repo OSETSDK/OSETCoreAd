@@ -24,6 +24,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 在展示已缓存素材时绑定本次用户。渠道支持此入口时，Core 优先使用它。
 - (void)showInViewController:(UIViewController *)viewController rewardUserId:(nullable NSString *)userId;
 
+/// Core 在播放失败回调中查询。YES 表示广告仍在展示，适配器需要持有到真实关闭。
+- (BOOL)isAwaitingCloseAfterPlaybackFailure;
+
 @end
 
 #pragma mark - 激励视频广告代理协议
