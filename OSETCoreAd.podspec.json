@@ -1,6 +1,6 @@
 {
   "name": "OSETCoreAd",
-  "version": "7.0.4.2",
+  "version": "7.0.4.3",
   "summary": "奇点广告对接",
   "description": "OSETCoreAd 是一个专业的广告SDK，提供高效的广告展示和收益优化功能。",
   "homepage": "https://github.com/OSETSDK/OSETCoreAd",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/OSETSDK/OSETCoreAd.git",
-    "tag": "7.0.4.2"
+    "tag": "7.0.4.3"
   },
   "vendored_frameworks": "OSETSDK.xcframework",
   "frameworks": [
