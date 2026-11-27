@@ -68,6 +68,11 @@ SDK初始化
 /// 打开日志模式
 + (void)openDebugLog;
 
+/// 返回当前进程按 logstore 汇总的阿里云日志投递状态。该调用不启动 Producer 或网络请求。
+/// queueDropped 统计队列满时丢弃的事件，addLogResults 按 Producer 返回码计数。
+/// sendResults 按批次回调的返回码计数，可包含重试，并提供最近一次 SLS 请求 ID。
++ (NSDictionary<NSString *, NSDictionary *> *)logDeliveryStatistics;
+
 //检查SDK是否初始化成功
 + (BOOL)checkConfigure;
 
